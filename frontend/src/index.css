@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+/* ─── Wavely design tokens (use in SVG + vanilla CSS via var(...)) ─── */
+:root {
+  --wv-bg-page: #f9f7f2;
+  --wv-bg-hero: #2a2825;
+  --wv-bg-elevated: #ffffff;
+  --wv-bg-card: #f7f7f7;
+  --wv-bg-summary: #f5f2ea;
+  --wv-bg-form-pane: #f9f8f5;
+  --wv-text: #1a1a1a;
+  --wv-text-muted: #757575;
+  --wv-text-soft: #666666;
+  --wv-border: #e8e4dc;
+  --wv-border-strong: #1a1a1a;
+  --wv-gold: #bfa37e;
+  --wv-gold-muted: #d4c4a8;
+  --wv-gold-deep: #c4a462;
+  --wv-olive: #4b533c;
+  --wv-forest: #2d4635;
+  --wv-accent-teal: #2d3e40;
+  --wv-on-hero: #ffffff;
+  --wv-login-gold: #c2b280;
+  --wv-shadow-drawer: 0 12px 40px rgba(26, 26, 26, 0.12);
+  --wv-font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --wv-font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --wv-tracking-nav: 0.22em;
+  --wv-tracking-caps: 0.14em;
+  --wv-space-page: clamp(1.25rem, 4vw, 2.5rem);
+  --wv-header-h: 4.25rem;
+  --wv-promo-h: 2.75rem;
+  --wv-radius-sm: 4px;
+  --wv-radius-md: 8px;
+  --wv-radius-lg: 16px;
+  --wv-radius-pill: 9999px;
+  --wv-transition-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@theme inline {
+  --color-wv-page: var(--wv-bg-page);
+  --color-wv-elevated: var(--wv-bg-elevated);
+  --color-wv-card: var(--wv-bg-card);
+  --color-wv-summary: var(--wv-bg-summary);
+  --color-wv-form-pane: var(--wv-bg-form-pane);
+  --color-wv-text: var(--wv-text);
+  --color-wv-muted: var(--wv-text-muted);
+  --color-wv-soft: var(--wv-text-soft);
+  --color-wv-border: var(--wv-border);
+  --color-wv-border-strong: var(--wv-border-strong);
+  --color-wv-gold: var(--wv-gold);
+  --color-wv-gold-muted: var(--wv-gold-muted);
+  --color-wv-gold-deep: var(--wv-gold-deep);
+  --color-wv-olive: var(--wv-olive);
+  --color-wv-forest: var(--wv-forest);
+  --color-wv-teal: var(--wv-accent-teal);
+  --color-wv-on-hero: var(--wv-on-hero);
+  --color-wv-login-gold: var(--wv-login-gold);
+  --color-wv-hero-wash: var(--wv-bg-hero);
+
+  --font-wv-serif: var(--wv-font-serif);
+  --font-wv-sans: var(--wv-font-sans);
+
+  --shadow-wv-drawer: var(--wv-shadow-drawer);
+
+  --breakpoint-xs: 450px;
+}
+
+@keyframes wv-drawer-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wv-sheet-enter {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--wv-bg-page);
+  color: var(--wv-text);
+  font-family: var(--wv-font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Drawer */
+.wv-drawer-overlay {
+  animation: wv-drawer-enter 0.35s var(--wv-transition-drawer) forwards;
+}
+
+.wv-drawer-sheet {
+  animation: wv-sheet-enter 0.4s var(--wv-transition-drawer) forwards;
+}
+
+.wv-hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.wv-hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.wv-nav-label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: var(--wv-tracking-nav);
+  text-transform: uppercase;
+}
+
+.wv-caption {
+  font-size: 0.6875rem;
+  letter-spacing: var(--wv-tracking-caps);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cart-toast {
+  animation:
+    toastSlideUp 2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes toastSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}

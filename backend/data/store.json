@@ -1,0 +1,1354 @@
+{
+  "users": [
+    {
+      "id": "usr_1779369922053",
+      "email": "eyad@gttgt.ikm",
+      "fullName": "eyad",
+      "phone": "",
+      "passwordHash": "$2b$10$7FUMLepp.T07gJOoZPJYDuv8gb0/Kr2gB7LSDzk5.GM7pZNzNZovm",
+      "createdAt": "2026-05-21T13:25:22.053Z",
+      "savedCards": [
+        {
+          "id": "card_1779372076520",
+          "cardholderName": "card1",
+          "lastFour": "3432",
+          "expiry": "31/23",
+          "createdAt": "2026-05-21T14:01:16.520Z"
+        },
+        {
+          "id": "card_1779372133468",
+          "cardholderName": "thethheth",
+          "lastFour": "4252",
+          "expiry": "24/52",
+          "createdAt": "2026-05-21T14:02:13.469Z"
+        },
+        {
+          "id": "card_1779372678334",
+          "cardholderName": "iubuihvuibiboihoiboibiouu]",
+          "lastFour": "7979",
+          "expiry": "87/77",
+          "createdAt": "2026-05-21T14:11:18.334Z"
+        }
+      ]
+    },
+    {
+      "id": "usr_1779436763978",
+      "email": "eyad@gmail.com",
+      "fullName": "Eyad Ahmed",
+      "phone": "",
+      "passwordHash": "$2b$10$CoPDn7sX9nWABTNgl9EAJus93gC0M1q/REifda6vL78lbJF/TvZrm",
+      "savedCards": [
+        {
+          "id": "card_1779451967531",
+          "cardholderName": "card 1",
+          "lastFour": "7782",
+          "expiry": "23/10",
+          "createdAt": "2026-05-22T12:12:47.531Z"
+        }
+      ],
+      "createdAt": "2026-05-22T07:59:23.978Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1779452046804",
+      "orderNumber": "WCV-634488",
+      "userId": "usr_1779436763978",
+      "email": "t@infrnkr.irnk",
+      "date": "May 22, 2026",
+      "createdAt": "2026-05-22T12:14:06.804Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 295,
+      "shipping": 0,
+      "tax": 17.7,
+      "total": 312.7,
+      "items": [
+        {
+          "id": 4,
+          "name": "The Wavely Signature Vase",
+          "price": 295,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Ethereal Blue"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "rbhgjnrk",
+        "address1": "gtgtgtgt",
+        "address2": "",
+        "city": "g",
+        "state": "",
+        "zip": "t",
+        "country": "United States",
+        "phone": "tg",
+        "email": "t@Infrnkr.irnk",
+        "cardNumber": "",
+        "expiry": "",
+        "cvc": ""
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "Jun 1",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-22T12:14:06.804Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-22T12:14:06.805Z",
+          "location": "Quality studio"
+        }
+      ]
+    },
+    {
+      "id": "ord_1779452004479",
+      "orderNumber": "WCV-392415",
+      "userId": "usr_1779436763978",
+      "email": "ryr@djekemnj.rk",
+      "date": "May 22, 2026",
+      "createdAt": "2026-05-22T12:13:24.480Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 625,
+      "shipping": 0,
+      "tax": 37.5,
+      "total": 662.5,
+      "items": [
+        {
+          "id": 1,
+          "name": "Lumière Silk Handbag",
+          "price": 625,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1584917865442-de89a76e552a?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Champagne",
+            "Noir"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "jdneinwijfneij",
+        "address1": "werglerht",
+        "address2": "",
+        "city": "ehte",
+        "state": "",
+        "zip": "yrhyrh",
+        "country": "United States",
+        "phone": "ry",
+        "email": "ryr@djekemnj.rk",
+        "cardNumber": "",
+        "expiry": "",
+        "cvc": ""
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "Jun 1",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-22T12:13:24.481Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-22T12:13:24.481Z",
+          "location": "Quality studio"
+        }
+      ]
+    },
+    {
+      "id": "ord_1779372742323",
+      "orderNumber": "WCV-222740",
+      "userId": "usr_1779369922053",
+      "email": "98760nmu@omouh.olnmjkmxjgvij",
+      "date": "May 21, 2026",
+      "createdAt": "2026-05-21T14:12:22.324Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 160,
+      "shipping": 0,
+      "tax": 9.6,
+      "total": 169.6,
+      "items": [
+        {
+          "id": 5,
+          "name": "Celestial Pearl Earrings",
+          "price": 160,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Pearl"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "uy8yigiuygu;",
+        "address1": "mojbnijmp",
+        "address2": "",
+        "city": "kjougiynp",
+        "state": "",
+        "zip": "kjjhiouk",
+        "country": "United States",
+        "phone": "kjbuinko",
+        "email": "98760nmu@omouh.olnmjkmxjgvij",
+        "cardNumber": "",
+        "expiry": "",
+        "cvc": ""
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "May 31",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-21T14:12:22.324Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-21T14:12:22.324Z",
+          "location": "Quality studio"
+        }
+      ],
+      "tracking": {
+        "shopifyId": null,
+        "currentStage": "enroute",
+        "currentLocation": "Atlantic corridor",
+        "estimatedArrival": "May 31",
+        "lastUpdated": "2026-05-21T14:12:22.324Z",
+        "events": [
+          {
+            "stage": "order_placed",
+            "timestamp": "2026-05-21T14:12:22.324Z",
+            "location": "Wavely atelier",
+            "label": "Order placed",
+            "description": "Your order has been confirmed"
+          },
+          {
+            "stage": "in_curation",
+            "timestamp": "2026-05-21T14:12:22.324Z",
+            "location": "Quality studio",
+            "label": "In curation",
+            "description": "Hand-selecting your pieces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1779372678374",
+      "orderNumber": "WCV-078095",
+      "userId": "usr_1779369922053",
+      "email": "jnhihbuiyhbiuy@uy.ihb",
+      "date": "May 21, 2026",
+      "createdAt": "2026-05-21T14:11:18.374Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 625,
+      "shipping": 0,
+      "tax": 37.5,
+      "total": 662.5,
+      "items": [
+        {
+          "id": 1,
+          "name": "Lumière Silk Handbag",
+          "price": 625,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1584917865442-de89a76e552a?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Champagne",
+            "Noir"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "iubuihvuibiboihoiboibiouu]",
+        "address1": "jbbibiuhi8uhoih",
+        "address2": "",
+        "city": "ojbijn9uhounj",
+        "state": "",
+        "zip": "ij kjniojnijniu",
+        "country": "United States",
+        "phone": "jnbijn9iubijnoij",
+        "email": "jnhihbuiyhbiuy@uy.ihb",
+        "cardNumber": "9899 8998 9899 7979",
+        "expiry": "87/77",
+        "cvc": "9798"
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "May 31",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-21T14:11:18.374Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-21T14:11:18.374Z",
+          "location": "Quality studio"
+        }
+      ],
+      "tracking": {
+        "shopifyId": null,
+        "currentStage": "enroute",
+        "currentLocation": "Atlantic corridor",
+        "estimatedArrival": "May 31",
+        "lastUpdated": "2026-05-21T14:11:18.374Z",
+        "events": [
+          {
+            "stage": "order_placed",
+            "timestamp": "2026-05-21T14:11:18.374Z",
+            "location": "Wavely atelier",
+            "label": "Order placed",
+            "description": "Your order has been confirmed"
+          },
+          {
+            "stage": "in_curation",
+            "timestamp": "2026-05-21T14:11:18.374Z",
+            "location": "Quality studio",
+            "label": "In curation",
+            "description": "Hand-selecting your pieces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1779372133483",
+      "orderNumber": "WCV-244234",
+      "userId": "usr_1779369922053",
+      "email": "hrye@rrghethe.gte",
+      "date": "May 21, 2026",
+      "createdAt": "2026-05-21T14:02:13.508Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 625,
+      "shipping": 0,
+      "tax": 37.5,
+      "total": 662.5,
+      "items": [
+        {
+          "id": 2,
+          "name": "Aura Gold Watch",
+          "price": 625,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Gold"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "thethheth",
+        "address1": "ry",
+        "address2": "",
+        "city": "jyrh",
+        "state": "",
+        "zip": "ytr",
+        "country": "United States",
+        "phone": "hjry",
+        "email": "hrye@rrghethe.gte",
+        "cardNumber": "4324 4255 2354 4252",
+        "expiry": "24/52",
+        "cvc": "4224"
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "May 31",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-21T14:02:13.508Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-21T14:02:13.508Z",
+          "location": "Quality studio"
+        }
+      ],
+      "tracking": {
+        "shopifyId": null,
+        "currentStage": "enroute",
+        "currentLocation": "Atlantic corridor",
+        "estimatedArrival": "May 31",
+        "lastUpdated": "2026-05-21T14:02:13.508Z",
+        "events": [
+          {
+            "stage": "order_placed",
+            "timestamp": "2026-05-21T14:02:13.508Z",
+            "location": "Wavely atelier",
+            "label": "Order placed",
+            "description": "Your order has been confirmed"
+          },
+          {
+            "stage": "in_curation",
+            "timestamp": "2026-05-21T14:02:13.508Z",
+            "location": "Quality studio",
+            "label": "In curation",
+            "description": "Hand-selecting your pieces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1779370209872",
+      "orderNumber": "WCV-947089",
+      "userId": "usr_1779369922053",
+      "email": "enbewgb@frgw.jsny4",
+      "date": "May 21, 2026",
+      "createdAt": "2026-05-21T13:30:09.873Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 625,
+      "shipping": 0,
+      "tax": 37.5,
+      "total": 662.5,
+      "items": [
+        {
+          "id": 2,
+          "name": "Aura Gold Watch",
+          "price": 625,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Gold"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "daabb",
+        "address1": "tgesnhzr",
+        "address2": "gdbenebe",
+        "city": "dgbehnh",
+        "state": "",
+        "zip": "beteb",
+        "country": "United States",
+        "phone": "dbetbw",
+        "email": "enbewgb@frgw.jsny4",
+        "cardNumber": "etbedbdge",
+        "expiry": "erget",
+        "cvc": "wbfg"
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "May 31",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-21T13:30:09.873Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-21T13:30:09.873Z",
+          "location": "Quality studio"
+        }
+      ],
+      "tracking": {
+        "shopifyId": null,
+        "currentStage": "enroute",
+        "currentLocation": "Atlantic corridor",
+        "estimatedArrival": "May 31",
+        "lastUpdated": "2026-05-21T13:30:09.873Z",
+        "events": [
+          {
+            "stage": "order_placed",
+            "timestamp": "2026-05-21T13:30:09.873Z",
+            "location": "Wavely atelier",
+            "label": "Order placed",
+            "description": "Your order has been confirmed"
+          },
+          {
+            "stage": "in_curation",
+            "timestamp": "2026-05-21T13:30:09.873Z",
+            "location": "Quality studio",
+            "label": "In curation",
+            "description": "Hand-selecting your pieces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1779369996110",
+      "orderNumber": "WCV-828470",
+      "userId": "usr_1779369922053",
+      "email": "rgres@gtejs.fkuk",
+      "date": "May 21, 2026",
+      "createdAt": "2026-05-21T13:26:36.111Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 582.5,
+      "shipping": 0,
+      "tax": 34.95,
+      "total": 617.45,
+      "items": [
+        {
+          "id": 3,
+          "name": "Ethereal Linen Blazer",
+          "price": 445,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80",
+          "selectedColor": 1,
+          "colorNames": [
+            "Sand",
+            "Slate"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Zenith Cashmere Scarf",
+          "price": 137.5,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1520903922243-00d744a2ee9a?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Oat",
+            "Charcoal"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "ggthtt",
+        "address1": "fkfiyl",
+        "address2": "",
+        "city": "ujtfkuifk",
+        "state": "",
+        "zip": "fcuikyf,k",
+        "country": "United States",
+        "phone": "fmi,yi,",
+        "email": "rgres@gtejs.fkuk",
+        "cardNumber": "teashteuyrzshjrzsjh",
+        "expiry": "djruy",
+        "cvc": "ygmd"
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "May 31",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-21T13:26:36.111Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-21T13:26:36.111Z",
+          "location": "Quality studio"
+        }
+      ],
+      "tracking": {
+        "shopifyId": null,
+        "currentStage": "enroute",
+        "currentLocation": "Atlantic corridor",
+        "estimatedArrival": "May 31",
+        "lastUpdated": "2026-05-21T13:26:36.111Z",
+        "events": [
+          {
+            "stage": "order_placed",
+            "timestamp": "2026-05-21T13:26:36.111Z",
+            "location": "Wavely atelier",
+            "label": "Order placed",
+            "description": "Your order has been confirmed"
+          },
+          {
+            "stage": "in_curation",
+            "timestamp": "2026-05-21T13:26:36.111Z",
+            "location": "Quality studio",
+            "label": "In curation",
+            "description": "Hand-selecting your pieces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1779369852056",
+      "orderNumber": "WCV-545245",
+      "userId": "usr_1779355605716",
+      "email": "iyhp@frhjyu.op",
+      "date": "May 21, 2026",
+      "createdAt": "2026-05-21T13:24:12.080Z",
+      "status": "Processing",
+      "statusIndex": 1,
+      "subtotal": 582.5,
+      "shipping": 0,
+      "tax": 34.95,
+      "total": 617.45,
+      "items": [
+        {
+          "id": 3,
+          "name": "Ethereal Linen Blazer",
+          "price": 445,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80",
+          "selectedColor": 0,
+          "colorNames": [
+            "Sand",
+            "Slate"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Zenith Cashmere Scarf",
+          "price": 137.5,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1520903922243-00d744a2ee9a?w=800&q=80",
+          "selectedColor": 1,
+          "colorNames": [
+            "Oat",
+            "Charcoal"
+          ]
+        }
+      ],
+      "shippingDetails": {
+        "fullName": "efrhymjjk",
+        "address1": "i;i",
+        "address2": "",
+        "city": "hiph",
+        "state": "",
+        "zip": "yjykutjy",
+        "country": "United States",
+        "phone": "u;",
+        "email": "iyhp@frhjyu.op",
+        "cardNumber": "hjykiry",
+        "expiry": "ukdif",
+        "cvc": "ukut"
+      },
+      "deliveryMethod": "standard",
+      "timeline": [
+        {
+          "key": "curation",
+          "label": "In curation",
+          "subtext": "Hand-selecting your pieces",
+          "active": false,
+          "completed": true
+        },
+        {
+          "key": "enroute",
+          "label": "En route",
+          "subtext": "Crossing to your region",
+          "active": true,
+          "completed": false
+        },
+        {
+          "key": "customs",
+          "label": "Customs clearance",
+          "subtext": "Expedited processing",
+          "active": false,
+          "completed": false
+        },
+        {
+          "key": "delivery",
+          "label": "Final delivery",
+          "subtext": "Estimated arrival soon",
+          "active": false,
+          "completed": false
+        }
+      ],
+      "estimatedArrival": "May 31",
+      "trackingLocation": "Atlantic corridor",
+      "events": [
+        {
+          "label": "Order placed",
+          "at": "2026-05-21T13:24:12.081Z",
+          "location": "Wavely atelier"
+        },
+        {
+          "label": "In curation",
+          "at": "2026-05-21T13:24:12.081Z",
+          "location": "Quality studio"
+        }
+      ],
+      "tracking": {
+        "shopifyId": null,
+        "currentStage": "enroute",
+        "currentLocation": "Atlantic corridor",
+        "estimatedArrival": "May 31",
+        "lastUpdated": "2026-05-21T13:24:12.081Z",
+        "events": [
+          {
+            "stage": "order_placed",
+            "timestamp": "2026-05-21T13:24:12.081Z",
+            "location": "Wavely atelier",
+            "label": "Order placed",
+            "description": "Your order has been confirmed"
+          },
+          {
+            "stage": "in_curation",
+            "timestamp": "2026-05-21T13:24:12.081Z",
+            "location": "Quality studio",
+            "label": "In curation",
+            "description": "Hand-selecting your pieces"
+          }
+        ]
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "lumiere-silk-handbag",
+      "name": "Lumière Silk Handbag",
+      "price": 625,
+      "category": "Bags",
+      "rating": 4.9,
+      "reviewCount": 412,
+      "stock": 18,
+      "description": "Champagne silk with structured silhouette — designed for evening transitions and everyday elegance.",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89a76e552a?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1584917865442-de89a76e552a?w=800&q=80",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80"
+      ],
+      "colors": [
+        "#E8DCC8",
+        "#1A1A1A"
+      ],
+      "colorNames": [
+        "Champagne",
+        "Noir"
+      ],
+      "benefits": [
+        "Hand-finished silk exterior with reinforced base",
+        "Interior suede lining with zip pocket",
+        "Detachable chain strap for crossbody wear",
+        "Dust bag and authenticity card included"
+      ],
+      "features": [
+        "Magnetic closure",
+        "Brushed gold hardware",
+        "Lightweight frame"
+      ],
+      "techSpecs": {
+        "Material": "Silk & leather trim",
+        "Dimensions": "11\" × 8\" × 4\"",
+        "Origin": "Italy"
+      },
+      "boxContents": [
+        "Handbag",
+        "Dust bag",
+        "Care card"
+      ],
+      "isNew": true,
+      "isBestseller": true,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_CamilleR._l0tou",
+          "author": "Camille R.",
+          "rating": 5,
+          "comment": "The silk catches light beautifully — worth every penny at this sale.",
+          "date": "2025-11-12",
+          "verified": true
+        },
+        {
+          "id": "rev_JordanM._v2jiw",
+          "author": "Jordan M.",
+          "rating": 5,
+          "comment": "Structured but soft. My most complimented bag this season.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "aura-gold-watch",
+      "name": "Aura Gold Watch",
+      "price": 625,
+      "category": "Accessories",
+      "rating": 4.8,
+      "reviewCount": 318,
+      "stock": 24,
+      "description": "Minimal dial with warm gold case — quiet luxury for daily wear.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+      ],
+      "colors": [
+        "#C2B280"
+      ],
+      "colorNames": [
+        "Gold"
+      ],
+      "benefits": [
+        "Swiss movement",
+        "Sapphire crystal",
+        "5 ATM water resistance",
+        "2-year warranty"
+      ],
+      "features": [
+        "Date window",
+        "Italian leather strap"
+      ],
+      "techSpecs": {
+        "Movement": "Quartz",
+        "Case": "38mm gold",
+        "Strap": "Leather"
+      },
+      "boxContents": [
+        "Watch",
+        "Warranty booklet",
+        "Polishing cloth"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_AlexandraK._img6d",
+          "author": "Alexandra K.",
+          "rating": 5,
+          "comment": "Elegant and understated. The discount made it irresistible.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "ethereal-linen-blazer",
+      "name": "Ethereal Linen Blazer",
+      "price": 445,
+      "category": "Apparel",
+      "rating": 4.7,
+      "reviewCount": 156,
+      "stock": 32,
+      "description": "Breathable European linen with relaxed tailoring for coastal evenings.",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+      ],
+      "colors": [
+        "#F5F0E8",
+        "#4A5568"
+      ],
+      "colorNames": [
+        "Sand",
+        "Slate"
+      ],
+      "benefits": [
+        "Pre-washed linen",
+        "Half-lined for comfort",
+        "Corozo buttons",
+        "Machine wash cold"
+      ],
+      "features": [
+        "Notch lapel",
+        "Two-button closure"
+      ],
+      "techSpecs": {
+        "Fabric": "100% linen",
+        "Fit": "Relaxed",
+        "Origin": "Portugal"
+      },
+      "boxContents": [
+        "Blazer",
+        "Garment bag"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_MorganT._qmzxd",
+          "author": "Morgan T.",
+          "rating": 4,
+          "comment": "Perfect weight for spring. Runs slightly large.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "signature-vase",
+      "name": "The Wavely Signature Vase",
+      "price": 295,
+      "category": "Home",
+      "rating": 4.9,
+      "reviewCount": 89,
+      "stock": 40,
+      "description": "Hand-blown silhouette with soft gradient — centerpiece for calm interiors.",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80"
+      ],
+      "colors": [
+        "#7BA3C9"
+      ],
+      "colorNames": [
+        "Ethereal Blue"
+      ],
+      "benefits": [
+        "Murano-inspired glasswork",
+        "Each piece unique within batch",
+        "Felt base protects surfaces",
+        "Artisan signed base"
+      ],
+      "features": [
+        "12\" height",
+        "Wide mouth for branches"
+      ],
+      "techSpecs": {
+        "Material": "Hand-blown glass",
+        "Dimensions": "12\" H × 8\" W",
+        "Origin": "Venice"
+      },
+      "boxContents": [
+        "Vase",
+        "Protective wrap"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_ElenaV._z2cvd",
+          "author": "Elena V.",
+          "rating": 5,
+          "comment": "Stunning in person — the blue depth is remarkable.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "celestial-pearl-earrings",
+      "name": "Celestial Pearl Earrings",
+      "price": 160,
+      "category": "Jewelry",
+      "rating": 4.8,
+      "reviewCount": 203,
+      "stock": 55,
+      "description": "Luminous pearls on brushed gold studs — day-to-night versatility.",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80"
+      ],
+      "colors": [
+        "#F8F4EF"
+      ],
+      "colorNames": [
+        "Pearl"
+      ],
+      "benefits": [
+        "AAA freshwater pearls",
+        "Hypoallergenic posts",
+        "Gift-ready box"
+      ],
+      "features": [
+        "Stud closure",
+        "10mm pearl"
+      ],
+      "techSpecs": {
+        "Metal": "14k gold plate",
+        "Pearl": "10mm"
+      },
+      "boxContents": [
+        "Earrings pair",
+        "Polishing pouch"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_PriyaS._xjlkw",
+          "author": "Priya S.",
+          "rating": 5,
+          "comment": "Classic and luminous. Great with the 50% event.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "nova-leather-tote",
+      "name": "Nova Leather Tote",
+      "price": 490,
+      "category": "Bags",
+      "rating": 4.7,
+      "reviewCount": 167,
+      "stock": 22,
+      "description": "Full-grain leather tote with architectural lines and interior organization.",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
+      ],
+      "colors": [
+        "#1A1A1A",
+        "#8B4513"
+      ],
+      "colorNames": [
+        "Black",
+        "Cognac"
+      ],
+      "benefits": [
+        "Full-grain leather",
+        "Laptop sleeve fits 15\"",
+        "Reinforced handles",
+        "Lifetime repair program"
+      ],
+      "features": [
+        "Magnetic top",
+        "Interior zip"
+      ],
+      "techSpecs": {
+        "Leather": "Vegetable tanned",
+        "Dimensions": "14\" × 12\" × 5\""
+      },
+      "boxContents": [
+        "Tote",
+        "Dust bag"
+      ],
+      "isNew": true,
+      "isBestseller": false,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_DavidL._4autd",
+          "author": "David L.",
+          "rating": 5,
+          "comment": "Workhorse luxury — leather is exceptional.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "zenith-cashmere-scarf",
+      "name": "Zenith Cashmere Scarf",
+      "price": 137.5,
+      "category": "Apparel",
+      "rating": 4.9,
+      "reviewCount": 278,
+      "stock": 60,
+      "description": "Ultra-fine cashmere in neutral weave — effortless layering.",
+      "image": "https://images.unsplash.com/photo-1520903922243-00d744a2ee9a?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1520903922243-00d744a2ee9a?w=800&q=80"
+      ],
+      "colors": [
+        "#D4C4A8",
+        "#2D3E40"
+      ],
+      "colorNames": [
+        "Oat",
+        "Charcoal"
+      ],
+      "benefits": [
+        "Grade A cashmere",
+        "Hand-finished fringe",
+        "Lightweight warmth"
+      ],
+      "features": [
+        "70\" × 28\"",
+        "Dry clean only"
+      ],
+      "techSpecs": {
+        "Fiber": "100% cashmere",
+        "Weight": "180g"
+      },
+      "boxContents": [
+        "Scarf",
+        "Ribbon wrap"
+      ],
+      "isNew": false,
+      "isBestseller": true,
+      "freeShipping": true,
+      "reviews": [
+        {
+          "id": "rev_HannahW._cwrmw",
+          "author": "Hannah W.",
+          "rating": 5,
+          "comment": "Cloud-soft. Buying a second color.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "opulence-velvet-loafers",
+      "name": "Opulence Velvet Loafers",
+      "price": 310,
+      "category": "Footwear",
+      "rating": 4.6,
+      "reviewCount": 94,
+      "stock": 28,
+      "description": "Italian velvet with leather sole — evening-ready comfort.",
+      "image": "https://images.unsplash.com/photo-1560769629-853e14a1b177?w=800&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1560769629-853e14a1b177?w=800&q=80"
+      ],
+      "colors": [
+        "#1E3A5F",
+        "#4A1942"
+      ],
+      "colorNames": [
+        "Midnight",
+        "Plum"
+      ],
+      "benefits": [
+        "Memory foam insole",
+        "Blake stitched sole",
+        "Velvet from Como mills"
+      ],
+      "features": [
+        "True to size",
+        "Leather lining"
+      ],
+      "techSpecs": {
+        "Upper": "Cotton velvet",
+        "Sole": "Leather"
+      },
+      "boxContents": [
+        "Loafers",
+        "Shoe bag"
+      ],
+      "isNew": false,
+      "isBestseller": false,
+      "freeShipping": false,
+      "reviews": [
+        {
+          "id": "rev_MarcusB._ztqy0",
+          "author": "Marcus B.",
+          "rating": 4,
+          "comment": "Rich color. Break-in took two wears.",
+          "date": "2025-11-12",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "siteDiscountPercent": 50,
+    "promoBanner": "PREMIUM EVENT — 50% OFF EVERYTHING",
+    "promoSubtext": "Limited allocation · Complimentary shipping over $150"
+  }
+}
