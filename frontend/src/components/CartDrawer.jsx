@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { useAuth } from '../context/AuthContext';
 
 const CartDrawer = () => {
   const {
@@ -14,9 +15,17 @@ const CartDrawer = () => {
     freeShippingRemaining,
     freeShippingProgress,
   } = useCart();
+  const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
 
   const handleCheckout = () => {
+    if (!isAuthenticated) {
+      // Redirect to login with the intention to return to checkout
+      navigate('/login?returnTo=/checkout');
+      return;
+    }
+    
+    // User is authenticated, proceed to checkout
     closeCart();
     navigate('/checkout');
   };
