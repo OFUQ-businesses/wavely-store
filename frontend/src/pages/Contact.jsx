@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
             <h3 className="font-wv-serif text-xl text-wv-text">Email</h3>
           </div>
-          <p className="font-wv-sans text-wv-text">eaydahmedp5f@gmail.com</p>
+          <p className="font-wv-sans text-wv-text">eyadahmedp5f@gmail.com</p>
           <p className="font-wv-sans text-sm text-wv-muted mt-1">Within 24 hours</p>
         </div>
         <div className="bg-wv-elevated border border-wv-border rounded-[var(--wv-radius-lg)] p-8">

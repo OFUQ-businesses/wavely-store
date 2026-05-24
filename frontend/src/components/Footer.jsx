@@ -40,6 +40,7 @@ const Footer = () => (
       </form>
     </div>
     <div className="text-center pb-8 text-[12px] font-wv-sans text-wv-muted">© {new Date().getFullYear()} Wavely</div>
+    <div className="text-center pb-8 text-[12px] font-wv-sans text-wv-muted">©OFUQ . The creator of the Wavely experience</div>
   </footer>
 );
 

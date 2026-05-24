@@ -112,7 +112,7 @@ const Home = () => {
             Explore the collection
           </a>
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-wv-on-hero animate-bounce">{SCROLL_ARROW_SVG}</div>
+        {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-wv-on-hero animate-bounce">{SCROLL_ARROW_SVG}</div> */}
       </section>
 
       <section id="collections" className="py-20 md:py-28 px-[var(--wv-space-page)] max-w-[90rem] mx-auto w-full scroll-mt-[calc(var(--wv-header-h)+var(--wv-promo-h))]">
@@ -122,14 +122,14 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <article className="flex flex-col gap-5 text-center">
             <div className="aspect-[4/3] overflow-hidden rounded-[var(--wv-radius-md)] border border-wv-border bg-wv-card">
-              <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=1200&auto=format&fit=crop" alt="" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=1200&auto=format&fit=crop" alt="modern cups" className="w-full h-full object-cover" />
             </div>
             <h3 className="font-wv-serif text-xl uppercase tracking-[0.06em]">The coastal table</h3>
             <a href="#shop" className="wv-caption text-wv-text underline underline-offset-4">View collection</a>
           </article>
           <article className="flex flex-col gap-5 text-center">
             <div className="aspect-[4/3] overflow-hidden rounded-[var(--wv-radius-md)] border border-wv-border bg-wv-card">
-              <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d6f08fa?q=80&w=1200&auto=format&fit=crop" alt="" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1571140891192-42cae59c69ea?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="organic textiles" className="w-full h-full object-cover" />
             </div>
             <h3 className="font-wv-serif text-xl uppercase tracking-[0.06em]">Organic textiles</h3>
             <a href="#shop" className="wv-caption text-wv-text underline underline-offset-4">View collection</a >

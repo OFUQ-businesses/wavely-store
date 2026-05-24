@@ -31,7 +31,7 @@ const ProductPage = () => {
       .finally(() => setLoading(false));
   }, [id]);
 
-  const slides = product?.gallery?.length ? product.gallery : product ? [product.image] : [];
+  const slides = product ? [product.image, ...(product.gallery || [])] : [];
 
   const onPointerDown = e => {
     dragging.current = true;
@@ -84,7 +84,7 @@ const ProductPage = () => {
               onMouseLeave={() => { dragging.current = false; }}
             >
               <DiscountBadge percent={discount} className="top-4 left-4" />
-              <img src={slides[imgIndex]} alt="" className="w-full h-full object-cover" draggable={false} />
+              <img src={slides[imgIndex]} alt={product.name} className="w-full h-full object-cover" draggable={false} />
             </div>
             <div className="flex justify-center gap-12 mt-6 text-wv-text">
               <button type="button" className="text-2xl font-light px-2 hover:opacity-50" onClick={() => setImgIndex(i => (i - 1 + slides.length) % slides.length)}>‹</button>
