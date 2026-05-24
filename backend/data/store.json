@@ -1,8 +1,6 @@
 {
-  "users": [
-  ],
-  "orders": [
-  ],
+  "users": [],
+  "orders": [],
   "products": [
     {
       "id": 1,
